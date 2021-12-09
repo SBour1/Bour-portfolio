@@ -179,9 +179,6 @@ body {
     .workCardsSmall {
       flex-direction: column;
     }
-    .imgtextSmall{
-
-    }
   }
  
   @media screen and (max-width: 375px) {
