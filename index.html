@@ -1,84 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Steve Bour's Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
 
-  <body>
-    <div class="container">
-    <header id="top">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Steve Bour's Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <div class="card text-center d-flex">
+    <header class="card-header text-center">
       <h1>Steve Bour's Portfolio</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#resume">Resume</a></li>
-        </ul>
+      <img src="./assets/images/profpic.jpg" alt="profilepicture">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="blank" href="./assets/images/NewResume.pdf" download>Resume</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
 
     <main>
       <section>
-        <article id="About">
-          <h2>About Me</h2>
+        <article id="about">
+          <h2 class="text-center">About Me</h2>
           <section>
-            <p>
-              My name is Steve Bour, and I am a Full Stack student with the University of Penn. I was born and raised in upstate New York, just outside of the capital of Albany.
-              I currently reside in the city of Chicopee, Massachusetts. My hobbies include watching UFC and NHL, playing video games or table top games with my friends, painting 
+            <p class="text-center" style="margin-left: 5%; margin-right: 5%">
+              My name is Steve Bour, and I am a Full Stack student with the University of Penn. I was born and raised in
+              upstate New York, just outside of the capital of Albany.
+              I currently reside in the city of Chicopee, Massachusetts. My hobbies include watching UFC and NHL,
+              playing video games or table top games with my friends, painting
               miniatures to play with, and going to the movies.
             </p>
-            <p>
-              Professionally, I have worked in the insurance industry for 13 years, with roles ranging from a support role in handling phones and mail, full claims investigation
-              involving complex liablity, inspecting and appraising the value of damages to vehicles, and working in a quality assurance role to maintain standards. 
+            <p class="text-center" style="margin-left: 5%; margin-right: 5%">
+              Professionally, I have worked in the insurance industry for 13 years, with roles ranging from a support
+              role in handling phones and mail, full claims investigation
+              involving complex liablity, inspecting and appraising the value of damages to vehicles, and working in a
+              quality assurance role to maintain standards.
             </p>
           </section>
         </article>
-          <article id="work">
-          <h2>Work</h2>
-          <section class="workCards col-12 col-sm-6 col-md-3 mb-3">
-            <a target="black" href="https://britt-klose.github.io/Project-1-griffins/index.html"><img class="imgLarge" src="assets/images/travelplanner.PNG" alt="Purple Griffin Travel Planner"></a>
-            <div class="textContain"><p class="imgtext">Purple Griffin Travel Planner</p></div>
-            <section class="workCardsSmall col-6"> 
-              <div class="imgContainer">
-                <a target="blank" href="https://sbour1.github.io/day-planner/"><img class="imgSmall" src="assets/images/planner.PNG" alt="Work Day Planner"></a> 
-               <div class="textContain"><p class="imgtextSmall">Day Planner</p></div>
+        <article id="work">
+          <h2 class="text-center">Work</h2>
+          <section class="card" style="width: 75%; margin-left: 12%; margin-right: 12%">
+            <a target="blank" href="https://britt-klose.github.io/Project-1-griffins/index.html">
+              <img class="img-fluid max-width: 100% height: auto" src="assets/images/pexels-andrea-piacquadio-3769138.jpg"
+                alt="Purple Griffin Travel Planner"></a>
+            <div class="textContain">
+              <p>Purple Griffin Travel Planner</p>
             </div>
-            <div class="imgContainer">
-              <a target="blank" href="https://sbour1.github.io/code-quiz/"><img class="imgSmall" src="assets/images/quiz.PNG" alt="Coding Quiz"></a>
-              <div class="textContain"><p class="imgtextSmall">Coding Quiz</p></div>
-             </div>
           </section>
+            <section class="container" style="margin-left:20%; margin-right: 20%; padding-top: 5%">
+              <div class="row">
+              <div class="col-6 justify-content-center">
+                <a target="blank" href="https://sbour1.github.io/day-planner/">
+                  <img class="img-fluid max-width: 100% height: auto" src="assets/images/pexels-bich-tran-760718.jpg"
+                    alt="Work Day Planner"></a>
+                <div class="textContain">
+                  <p>Day Planner</p>
+                </div>
+              </div>
+              <div class="col-6 justify-content-center">
+                <a target="blank" href="https://sbour1.github.io/code-quiz/">
+                  <img class="img-fluid max-width: 100% height: auto" src="assets/images/pexels-pixabay-270360.jpg"
+                    alt="Coding Quiz"></a>
+                <div class="textContain">
+                  <p>Coding Quiz</p>
+                </div>
+              </div>
+              </div>
+            </section>
           </section>
         </article>
         <article id="contact">
           <h2>Contact Me!</h2>
-          <ul>
-            <li><a href='mailto:bourpower@gmail.com'>Email</a></li>
-            <li><a target=blank href='https://github.com/SBour1'>GitHub</a></li>
-            <li><a href='tel:518-847-5353'>Phone</a></li>
-          </ul>
-        </article>
-        <article id="resume">
-          <h2>Resume</h2>
-          <div class="resume">
-            <a target="blank" href="https://docs.google.com/document/d/0B9LnlqFsk60eNkdXc3hjemlzVzA3QTVMalE1Rm1TSGxldHlF/edit?resourcekey=0-8xYoF2DRkI0HvawFl_cNjA">Resume</a>
+          <div>
+            <a href='mailto:bourpower@gmail.com'>Email</a><br>
+            <a target="blank" href='https://github.com/SBour1'>GitHub</a><br>
+            <a target="blank" href='https://www.linkedin.com/in/steve-bour-5522a0222/'>LinkedIn</a><br>
+            <a href='tel:518-847-5353'>Phone</a>
           </div>
         </article>
       </section>
     </main>
 
-    <footer>
-      <span>Thanks for visiting!</span>
-      <a href="#top">Return to Top</a>
+    <footer class="text-center">
+      <span></span>
+      <a href="#top">Thanks for visiting! <br> Return to Top</a>
     </footer>
-  </div>
-  </body>
+</body>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
 </html>
