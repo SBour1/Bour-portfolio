@@ -18,27 +18,29 @@ const styles = {
   },
 };
 
-function Card() {
+function AboutMe() {
   return (
     <div style={styles.card}>
-      <div style={styles.heading}>Lorem ipsum dolor</div>
+      <div style={styles.heading}>About Me</div>
       <div style={styles.content}>
-        `Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-        illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-        explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-        odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-        voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
-        quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
-        eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
-        voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam
-        corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
-        Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
-        quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
-        voluptas nulla pariatur?`
+        <p>
+          My name is Steve Bour, and I am a Full Stack student with the
+          University of Penn. I was born and raised in upstate New York, just
+          outside of the capital of Albany. I currently reside in the city of
+          Chicopee, Massachusetts. My hobbies include watching UFC and NHL,
+          playing video games or table top games with my friends, painting
+          miniatures to play with, and going to the movies.
+        </p>
+        <p>
+          Professionally, I have worked in the insurance industry for 13 years,
+          with roles ranging from a support role in handling phones and mail,
+          full claims investigation involving complex liablity, inspecting and
+          appraising the value of damages to vehicles, and working in a quality
+          assurance role to maintain standards.
+        </p>
       </div>
     </div>
   );
 }
 
-export default Card;
+export default AboutMe;

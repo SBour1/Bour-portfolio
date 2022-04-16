@@ -4,6 +4,7 @@ const styles = {
   card: {
     margin: 20,
     background: "#e8eaf6",
+    textAlign: 'center'
   },
   heading: {
     background: "#9a74db",
@@ -15,12 +16,15 @@ const styles = {
   },
 };
 
-function Navbar() {
+function Navigation() {
   return (
     <div style={styles.card}>
       <div style={styles.heading}>Home</div>
+      <div style={styles.heading}>About Me</div>
+      <div style={styles.heading}>Projects</div>
+      <div style={styles.heading}>Contact Me</div>
     </div>
   );
 }
 
-export default Navbar;
+export default Navigation;

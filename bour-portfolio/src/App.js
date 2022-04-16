@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Project from "./components/Project";
 import Footer from "./components/Footer";
 import AboutMe from "./components/AboutMe";
+import Contact from "./components/Contact"
 
 function App() {
   return (
@@ -12,8 +13,10 @@ function App() {
       <Header />
       <AboutMe />
       <Project />
+      <Contact />
       <Footer />
     </div>
   );
 }
+
 export default App;
