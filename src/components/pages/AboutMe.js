@@ -1,4 +1,5 @@
 import React from "react";
+import profile from "../../images/profpic.jpg"
 
 const styles = {
   card: {
@@ -16,6 +17,10 @@ const styles = {
   content: {
     padding: 20,
   },
+  pic: {
+    marginLeft: '45%',
+    marginRight: '45%'
+  }
 };
 
 function AboutMe() {
@@ -23,6 +28,7 @@ function AboutMe() {
     <div style={styles.card}>
       <div style={styles.heading}>About Me</div>
       <div style={styles.content}>
+        <img style={styles.pic} src={profile} alt="profile pic"/>
         <p>
           My name is Steve Bour, and I am a Full Stack student with the
           University of Penn. I was born and raised in upstate New York, just

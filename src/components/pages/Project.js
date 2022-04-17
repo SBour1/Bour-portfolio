@@ -1,10 +1,10 @@
 import React from "react";
-import purpleGriffin from "../images/pexels-andrea-piacquadio-3769138.jpg";
-import pizza from "../images/pexels-mart-production-8165239.jpg";
-import planner from "../images/pexels-bich-tran-760718.jpg";
-import quiz from "../images/pexels-pixabay-270360.jpg";
-import commerce from "../images/pexels-sora-shimazaki-5926389.jpg";
-import tracker from "../images/pexels-edmond-dantès-4344860.jpg";
+import purpleGriffin from "../../images/pexels-andrea-piacquadio-3769138.jpg";
+import pizza from "../../images/pexels-mart-production-8165239.jpg";
+import planner from "../../images/pexels-bich-tran-760718.jpg";
+import quiz from "../../images/pexels-pixabay-270360.jpg";
+import commerce from "../../images/pexels-sora-shimazaki-5926389.jpg";
+import tracker from "../../images/pexels-edmond-dantès-4344860.jpg";
 
 const styles = {
   big: {
@@ -22,7 +22,7 @@ const styles = {
 function Project() {
   return (
     <article id="work">
-      <h2 className="text-center">Work</h2>
+      <h2 className="text-center">Projects</h2>
       <section className="card" style={styles.big}>
         <a
           target="blank"

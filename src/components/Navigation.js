@@ -1,29 +1,45 @@
 import React from "react";
 
-const styles = {
-  card: {
-    margin: 20,
-    background: "#e8eaf6",
-    textAlign: 'center'
-  },
-  heading: {
-    background: "#9a74db",
-    minHeight: 50,
-    lineHeight: 3.5,
-    fontSize: "1.2rem",
-    color: "white",
-    padding: "0 20px",
-  },
-};
-
-function Navigation() {
+function Navigation({ currentPage, handlePageChange }) {
   return (
-    <div style={styles.card}>
-      <div style={styles.heading}>Home</div>
-      <div style={styles.heading}>About Me</div>
-      <div style={styles.heading}>Projects</div>
-      <div style={styles.heading}>Contact Me</div>
-    </div>
+    <ul className="nav nav-tabs">
+      <li className="nav-item">
+        <a
+          href="#aboutme"
+          onClick={() => handlePageChange("AboutMe")}
+          className={currentPage === "AboutMe" ? "nav-link active" : "nav-link"}
+        >
+          About Me
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#project"
+          onClick={() => handlePageChange("Project")}
+          className={currentPage === "Project" ? "nav-link active" : "nav-link"}
+        >
+          Project
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#contact"
+          onClick={() => handlePageChange("Contact")}
+          className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
+        >
+          Contact
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#resume"
+          onClick={() => handlePageChange("Resume")}
+          className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
+        >
+          Resume
+        </a>
+      </li>
+    </ul>
   );
 }
 
