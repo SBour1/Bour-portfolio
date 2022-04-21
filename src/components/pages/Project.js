@@ -34,7 +34,7 @@ function Project() {
             alt="Purple Griffin Travel Planner"
           />
         </a>
-        <div class="textContain">
+        <div className="textContain">
           <p>Purple Griffin Travel Planner</p>
         </div>
       </section>
@@ -46,7 +46,7 @@ function Project() {
             alt="Stucco's Pizzeria"
           />
         </a>
-        <div class="textContain">
+        <div className="textContain">
           <p>Stucco's Pizzeria E-Commerce</p>
         </div>
       </section>

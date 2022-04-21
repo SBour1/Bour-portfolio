@@ -5,7 +5,7 @@ function Footer() {
     <footer className="text-center">
       <span></span>
       <a href="#top">
-        Thanks for visiting! <br></br> Return to Top
+        Thanks for visiting!
       </a>
     </footer>
   );
