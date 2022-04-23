@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Bour-portfolio/static/css/main.e7720ab7.css",
+    "main.js": "/Bour-portfolio/static/js/main.aa865dd3.js",
+    "static/media/pexels-andrea-piacquadio-3769138.jpg": "/Bour-portfolio/static/media/pexels-andrea-piacquadio-3769138.ad3dc3b00030b44b8180.jpg",
+    "static/media/pexels-edmond-dantès-4344860.jpg": "/Bour-portfolio/static/media/pexels-edmond-dantès-4344860.e32470a0dde821e7b976.jpg",
+    "static/media/pexels-mart-production-8165239.jpg": "/Bour-portfolio/static/media/pexels-mart-production-8165239.aea30247819f4d2fad47.jpg",
+    "static/media/pexels-sora-shimazaki-5926389.jpg": "/Bour-portfolio/static/media/pexels-sora-shimazaki-5926389.2e24b6a68b10759d6143.jpg",
+    "static/media/pexels-bich-tran-760718.jpg": "/Bour-portfolio/static/media/pexels-bich-tran-760718.c5f94d33ffb2a6da3c61.jpg",
+    "static/media/pexels-pixabay-270360.jpg": "/Bour-portfolio/static/media/pexels-pixabay-270360.93a812f70af95a735caa.jpg",
+    "static/media/Resume.pdf": "/Bour-portfolio/static/media/Resume.a6d4e3361b85ca5588e9.pdf",
+    "static/media/profpic.jpg": "/Bour-portfolio/static/media/profpic.c46254c1d45dfe5262cc.jpg",
+    "index.html": "/Bour-portfolio/index.html",
+    "main.e7720ab7.css.map": "/Bour-portfolio/static/css/main.e7720ab7.css.map",
+    "main.aa865dd3.js.map": "/Bour-portfolio/static/js/main.aa865dd3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7720ab7.css",
+    "static/js/main.aa865dd3.js"
+  ]
+}
