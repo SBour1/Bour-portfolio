@@ -50,4 +50,4 @@
   If you have any questions about the repo, open an issue or contact me directly at bourpower@gmail.com. You can find more of my work at [Sbour1](https://github.com/Sbour1/).
   
   
-<img src="./assets/images/screenshot.PNG" alt="Portfolio Screenshot"/>
+<img src="./src/images/screenshot.png" alt="Portfolio Screenshot"/>
