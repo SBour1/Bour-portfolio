@@ -1,24 +1,21 @@
-import React, { useState } from "react";
-import { Document, Page, pdfjs } from "react-pdf";
-import resume from "../../Resume.pdf";
-pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+import React from "react";
+import resume from '../../images/Resume.pdf'
 
-function Resume() {
-  const [numPages, setNumPages] = useState(null);
-  const [pageNumber, setPageNumber] = useState(1);
-  function onDocumentLoadSuccess({ numPages }) {
-    setNumPages(numPages);
-  }
+
+function Resume () {
   return (
     <div>
-      <Document file={{ resume }} onLoadSuccess={onDocumentLoadSuccess}>
-        <Page pageNumber={pageNumber} />
-      </Document>
-      <p>
-        Page {pageNumber} of {numPages}
-      </p>
+      <h1 className="text-center">Resume</h1>
+      <a
+        class="nav-link text-center"
+        target="blank"
+        href={resume}
+        download
+      >
+        Resume
+      </a>
     </div>
   );
 }
 
-export default Resume;
+export default Resume
